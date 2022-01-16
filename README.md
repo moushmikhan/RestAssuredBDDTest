@@ -1,6 +1,9 @@
 # RestAssuredBDDTest
 
-The project is built on BDD Frameworkusing rest assured lib. Common methods are written in separate Page classed to make it more re-usable TestNG Tests are written under com.N26.api.test.APIv3Test folder All these tests are included together in /resources/testng.xml config file Please run APIv3.xml File to see the execution of all tests automated
+The project is built on BDD Framework using rest assured libraries. 
+BaseUrl and Data are defined in a separate class file so as to make it more configurable. 
+Test are desgined under com.wefox.Test.Pet_EndToEndFlow and com.wefox.Test.Pet_NegativeTest java class file.
+All these tests are included together in /resources/testng.xml config file Please run testng.xml File to see the execution of all tests automated
 
 Steps to Run the project
 
